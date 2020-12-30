@@ -1,0 +1,312 @@
+
+MSSubClass:
+  type: categorical
+  method: OneHot
+
+MSZoning:
+  type: categorical
+  method: OneHot
+
+LotFrontage:
+  type: numerical
+  NaNis: 0
+
+LotArea:
+  type: numerical
+  NaNis: 0
+
+Street:
+  type: categorical
+  method: OneHot
+
+Alley:
+  type: categorical
+  method: OneHot
+
+LotShape:
+  type: categorical
+  method: OneHot 
+
+LandContour:
+  type: categorical
+  method: OneHot 
+  
+Utilities:
+  type: categorical
+  method: OneHot 
+  
+LotConfig:
+  type: categorical
+  method: OneHot 
+
+LandSlope:
+  type: categorical
+  method: OneHot 
+
+Neighborhood:
+  type: categorical
+  method: OneHot
+  
+Condition1:
+  type: categorical
+  method: OneHot
+
+Condition2:
+  type: categorical
+  method: OneHot
+  
+BldgType:
+  type: categorical
+  method: OneHot
+  
+HouseStyle:
+  type: categorical
+  method: OneHot
+
+OverallQual:
+  type: numerical
+
+OverallCond:
+  type: numerical
+
+YearBuilt:
+  type: numerical
+
+YearRemodAdd:
+  type: numerical
+  NaNis: -1
+
+RoofStyle:
+  type: categorical
+  method: OneHot
+
+RoofMatl:
+  type: categorical
+  method: OneHot
+
+Exterior1st:
+  type: categorical
+  method: OneHot
+
+Exterior2nd:
+  type: categorical
+  method: OneHot
+
+MasVnrType: 
+  type: categorical
+  method: OneHot
+
+MasVnrArea:
+  type: numerical
+  NaNis: median
+
+ExterQual:
+  type: categorical
+  method: Ordinal
+
+ExterCond:
+  type: categorical
+  method: Ordinal
+
+Foundation:
+  type: categorical
+  method: OneHot
+
+BsmtQual:
+  type: categorical
+  method: Ordinal
+
+BsmtCond:
+  type: categorical
+  method: Ordinal
+
+BsmtExposure:
+  type: categorical
+  method: Ordinal
+
+BsmtFinType1:
+  type: categorical
+  method: OneHot
+
+BsmtFinSF1:
+  type: categorical
+  method: OneHot
+
+BsmtFinType2:
+  type: categorical
+  method: OneHot
+
+
+BsmtFinSF2:
+  type: numerical
+  NaNis: 0
+
+BsmtUnfSF:
+  type: numerical
+  NaNis: 0
+
+TotalBsmtSF: 
+  type: numerical
+  NaNis: 0
+
+Heating:
+  type: categorical
+  method: OneHot
+  
+CentralAir:
+  type: categorical
+  method: OneHot
+
+Electrical:
+  type: categorical
+  method: OneHot
+
+1stFlrSF:
+  type: numerical
+  NaNis: 0
+
+2ndFlrSF: 
+  type: numerical
+  NaNis: 0
+
+LowQualFinSF: 
+  type: numerical
+  NaNis: 0
+
+GrLivArea: 
+  type: numerical
+  NaNis: 0
+
+BsmtFullBath:
+  type: numerical
+  NaNis: 0
+
+BsmtHalfBath:
+  type: numerical
+  NaNis: 0
+
+FullBath:
+  type: numerical
+  NaNis: 0
+
+HalfBath:
+  type: numerical
+  NaNis: 0
+
+BedroomAbvGr:
+  type: numerical
+  NaNis: 0
+
+KitchenAbvGr:
+  type: numerical
+  NaNis: 0
+
+KitchenQual:
+  type: categorical
+  method: OneHot
+
+TotRmsAbvGrd:
+  type: numerical
+  NaNis: 0
+
+Functional:
+  type: categorical
+  method: OneHot
+
+Fireplaces:
+  type: numerical
+  NaNis: 0
+
+FireplaceQu:
+  type: categorical
+  method: OneHot
+
+GarageType:
+  type: categorical
+  method: OneHot
+
+GarageYrBlt:
+  type: numerical
+  NaNis: 0
+
+GarageFinish:
+  type: categorical
+  method: OneHot
+
+GarageCars:
+  type: numerical
+  NaNis: 0
+
+GarageArea:
+  type: numerical
+  NaNis: 0
+
+GarageQual:
+  type: categorical
+  method: Ordinal
+
+GarageCond:
+  type: categorical
+  method: Ordinal
+  
+PavedDrive:
+  type: categorical
+  method: OneHot
+
+WoodDeckSF:
+  type: numerical
+  NaNis: 0
+
+OpenPorchSF:
+  type: numerical
+  NaNis: 0
+
+EnclosedPorch:
+  type: numerical
+  NaNis: 0
+
+3SsnPorch:
+  type: numerical
+  NaNis: 0
+
+ScreenPorch:
+  type: numerical
+  NaNis: 0
+
+PoolArea:
+  type: numerical
+  NaNis: 0
+
+PoolQC:
+  type: categorical
+  method: Ordinal
+
+Fence:
+  type: categorical
+  method: OneHot
+
+MiscFeature:
+  type: categorical
+  method: OneHot
+  
+MiscVal:
+  type: numerical
+  NaNis: 0
+
+MoSold:
+  type: numerical
+  NaNis: 0
+
+YrSold:
+  type: numerical
+  NaNis: 0
+
+SaleType:
+  type: categorical
+  method: OneHot
+
+SaleCondition:
+  type: categorical
+  method: OneHot
+
+
