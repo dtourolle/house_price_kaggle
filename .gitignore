@@ -2,3 +2,4 @@ data/*.csv
 *.pyc
 *-checkpoint.ipynb
 .*
+notebooks/.*
