@@ -129,8 +129,8 @@ BsmtFinType1:
   method: OneHot
 
 BsmtFinSF1:
-  type: categorical
-  method: OneHot
+  type: numerical
+  NaNis: 0
 
 BsmtFinType2:
   type: categorical
@@ -227,7 +227,7 @@ GarageType:
 
 GarageYrBlt:
   type: numerical
-  NaNis: 0
+  NaNis: median
 
 GarageFinish:
   type: categorical
@@ -235,7 +235,7 @@ GarageFinish:
 
 GarageCars:
   type: numerical
-  NaNis: 0
+  NaNis: median
 
 GarageArea:
   type: numerical
@@ -244,6 +244,7 @@ GarageArea:
 GarageQual:
   type: categorical
   method: Ordinal
+  NaNis: median
 
 GarageCond:
   type: categorical
