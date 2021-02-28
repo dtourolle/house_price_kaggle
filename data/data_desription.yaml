@@ -310,4 +310,5 @@ SaleCondition:
   type: categorical
   method: OneHot
 
-
+SalePrice:
+  type: numerical
